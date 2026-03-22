@@ -1,0 +1,41 @@
+services:
+  komga:
+    image: gotson/komga
+    container_name: komga
+    user: "${PUID}:${PGID}"
+    environment:
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${MEDIA_DIRECTORY}:/data
+      - ${INSTALL_DIRECTORY}/config/komga:/config
+    ports:
+      - 25600:25600
+    restart: unless-stopped
+
+  calibre-web:
+    image: lscr.io/linuxserver/calibre-web:latest
+    container_name: calibre-web
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${MEDIA_DIRECTORY}/books:/books
+      - ${INSTALL_DIRECTORY}/config/calibre-web:/config
+    ports:
+      - 8083:8083
+    restart: unless-stopped
+
+  suwayomi:
+    image: ghcr.io/suwayomi/suwayomi-server:stable
+    container_name: suwayomi
+    environment:
+      - TZ=${TZ}
+    volumes:
+      - ${MEDIA_DIRECTORY}/manga/_suwayomi-downloads:/home/suwayomi/.local/share/Tachidesk/downloads
+      - ${INSTALL_DIRECTORY}/config/suwayomi:/home/suwayomi/.local/share/Tachidesk
+    ports:
+      - 4567:4567
+    restart: unless-stopped
