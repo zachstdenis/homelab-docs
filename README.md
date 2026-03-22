@@ -39,6 +39,7 @@ Current environment includes:
 - [DNS](docs/dns.md)
 - [Services](docs/services.md)
 - [Incidents and Fixes](docs/incidents.md)
+- [Maintenance and Updates](docs/maintenance-and-updates.md)
 - [Roadmap](docs/roadmap.md)
 - [Runbooks](docs/runbooks.md)
 
