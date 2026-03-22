@@ -1,2 +1,33 @@
+# Incidents and Fixes
+
+This page tracks notable issues, outage tests, recovery findings, and troubleshooting writeups from the homelab.
+
 ## Incident Writeups
+
 - [UPS / Power Outage Recovery Test](power-outage-test.md)
+
+## Current Notable Issues
+
+### VPN Client Internet Access / Routing
+Remote VPN clients were able to reach LAN resources, but internet access behavior required additional routing/firewall work. This remains an important reference point for future VPN cleanup and the eventual move to WireGuard.
+
+**Status:** In progress
+
+### NAS Power-Loss Boot Behavior
+The NAS has shown unreliable recovery behavior after power loss and may require full power drain/manual intervention before booting normally again.
+
+**Status:** Open
+
+### Preboot / Dropbear Remote Unlock Networking
+The main server can stall during remote unlock in initramfs, and preboot networking has not always been reliably reachable.
+
+**Status:** Open
+
+## Why This Page Exists
+
+This page is meant to capture:
+- what happened
+- what was learned
+- what still needs to be fixed
+
+Over time, major incidents should be broken out into their own dedicated writeups under `docs/`.
