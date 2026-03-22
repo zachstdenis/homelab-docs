@@ -24,13 +24,6 @@ Examples of files that belong here:
 - `.env.example` files
 - notes about required variables, mounts, ports, and dependencies
 
-A typical structure might look like:
-
-- `compose/reading/`
-- `compose/karakeep/`
-- `compose/media/`
-- `env/`
-
 ## What Should Be Published
 
 Good candidates for this folder include:
@@ -40,30 +33,6 @@ Good candidates for this folder include:
 - selected sanitized YAMS custom Compose snippets
 - example environment files with placeholder values
 - small helper notes explaining service dependencies
-
-## What Should Not Be Published
-
-Do **not** publish:
-
-- real `.env` files
-- API keys
-- passwords
-- email relay credentials
-- VPN private keys
-- tokens
-- private certificates
-- secrets embedded in Compose `environment:` sections
-- anything that would expose sensitive internal access details
-
-## Sanitization Rules
-
-When publishing infrastructure files:
-
-- replace secrets with placeholders such as `REPLACE_ME`
-- use `.env.example` instead of real `.env`
-- keep comments that explain ports, mounts, dependencies, and service purpose
-- remove values that are too specific if they are not useful to others
-- prefer files that teach something over dumping every live config verbatim
 
 ## Notes on Accuracy
 
