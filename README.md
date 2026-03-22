@@ -40,6 +40,7 @@ Current environment includes:
 - [Services](docs/services.md)
 - [Incidents and Fixes](docs/incidents.md)
 - [Maintenance and Updates](docs/maintenance-and-updates.md)
+- [Backups and Recovery](docs/backups-and-recovery.md)
 - [Roadmap](docs/roadmap.md)
 - [Runbooks](docs/runbooks.md)
 
