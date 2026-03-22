@@ -1,0 +1,51 @@
+networks:
+  default:
+    external: true
+    name: yams_network
+
+services:
+  jellyseerr:
+    image: ghcr.io/seerr-team/seerr:latest
+    init: true
+    container_name: jellyseerr
+    environment:
+      - TZ=${TZ}
+    volumes:
+      - /opt/yams/config/jellyseerr:/app/config
+    ports:
+      - 5055:5055
+    restart: unless-stopped
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - TZ=${TZ}
+      - LOG_LEVEL=info
+    ports:
+      - 8191:8191
+    restart: unless-stopped
+
+  recyclarr:
+    image: ghcr.io/recyclarr/recyclarr:8
+    container_name: recyclarr
+    user: "${PUID}:${PGID}"
+    environment:
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${INSTALL_DIRECTORY}/config/recyclarr:/config
+    restart: unless-stopped
+
+  jellyfin-meilisearch:
+    image: getmeili/meilisearch:v1.34
+    container_name: jellyfin-meilisearch
+    environment:
+      - MEILI_ENV=production
+      - MEILI_NO_ANALYTICS=true
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY}
+    volumes:
+      - ${INSTALL_DIRECTORY}/config/jellyfin-meilisearch:/meili_data
+    ports:
+      - 7700:7700
+    restart: unless-stopped
