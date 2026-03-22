@@ -9,7 +9,6 @@ These files focus less on what the environment is, and more on how it is operate
 - [Runbooks](runbooks.md) - short operational procedures for common recovery and maintenance tasks
 - [Maintenance and Updates](maintenance-and-updates.md) - update strategy, validation steps, and maintenance priorities
 - [Backups and Recovery](backups-and-recovery.md) - recovery priorities, backup posture, and known resilience gaps
-- [Security Notes](security-notes.md) - practical security approach and public-documentation boundaries
 - [Roadmap](roadmap.md) - near-term, medium-term, and longer-term priorities for the homelab
 
 ## Purpose
