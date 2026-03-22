@@ -258,5 +258,3 @@ meilisearch:/meili_data
 ## Status
 
 Completed as a successful standalone Karakeep deployment, with documentation, backup strategy, and long-term usage monitoring still remaining.
-
-This one came from the uploaded summary you just shared. 
