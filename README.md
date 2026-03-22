@@ -61,7 +61,6 @@ Current environment includes:
 - improving SG preboot/dropbear remote unlock reliability
 - continuing NAS power-loss / boot behavior investigation
 - keeping VPN behavior clearly documented
-- cleaning up stale DHCP/DNS/network artifacts
 - improving long-term maintainability and recovery documentation
 
 ## Why This Repo Exists
