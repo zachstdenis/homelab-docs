@@ -50,7 +50,7 @@ Current environment includes:
 
 ## Incident and Recovery Writeups
 
-- [Incidents and Fixes](docs/incidents.md)
+- [Incidents and Fixes](docs/incidents/README.md)
 
 ## Service Deployment Writeups
 
