@@ -34,6 +34,7 @@ Current environment includes:
 
 ## Documentation
 
+- [Hardware](docs/hardware.md)
 - [Network Topology](docs/network-topology.md)
 - [Services](docs/services.md)
 - [Incidents and Fixes](docs/incidents.md)
