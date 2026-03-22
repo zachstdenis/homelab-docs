@@ -23,12 +23,12 @@ Current environment includes:
 - Wi-Fi provided by the ISP modem/router
 - AdGuard Home + Unbound for DNS
 - Docker/YAMS media stack
-- Home Assistant
 - UPS/NUT shutdown and recovery work
 - additional standalone self-hosted services such as:
   - reading stack (`Komga`, `Suwayomi`, `Calibre-Web`)
   - `Karakeep`
   - `Tailscale`
+  - `Home Assistant`
 
 ## Goals
 
