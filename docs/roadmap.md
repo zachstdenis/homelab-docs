@@ -153,8 +153,6 @@ This homelab is being built with a few consistent priorities:
 
 ## Current Overall Direction
 
-The homelab is no longer in a pure “just get it working” phase.
-
 The current direction is to:
 
 - stabilize recovery behavior
