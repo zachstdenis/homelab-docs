@@ -15,3 +15,4 @@
 
 ## Notes
 This page will eventually include a visual topology diagram and VLAN/subnet details.
+![Homelab topology](images/topology.png)
