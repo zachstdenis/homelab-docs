@@ -6,6 +6,7 @@ This page tracks standalone service deployment writeups that are useful to the h
 
 - [BOOX Reading Stack: Komga, Suwayomi, and Calibre-Web](boox-reading-stack-komga-suwayomi-calibre-web.md)
 - [Karakeep Bookmark Manager Deployment and OpenAI Tagging](karakeep-bookmark-manager-deployment-and-openai-tagging.md)
+- [Tailscale Remote Access and ACL Design](tailscale-remote-access-and-acl-design.md)
 
 ## Why This Page Exists
 
