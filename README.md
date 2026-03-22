@@ -28,6 +28,7 @@ Current environment includes:
 - additional standalone self-hosted services such as:
   - reading stack (`Komga`, `Suwayomi`, `Calibre-Web`)
   - `Karakeep`
+  - `Tailscale`
 
 ## Goals
 
