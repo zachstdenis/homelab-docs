@@ -17,6 +17,3 @@ Some writeups are better categorized as:
 - application stack additions
 - workflow improvements
 - new self-hosted tools
-
-Keeping those separate from `incidents.md` makes the repo easier to read.
-
