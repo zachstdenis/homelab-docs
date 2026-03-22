@@ -71,7 +71,7 @@ The troubleshooting process focused on:
 Added WireGuard-specific values:
 
 * `WIREGUARD_PRIVATE_KEY=...`
-* `WIREGUARD_ADDRESSES=10.73.191.199/32`
+* `WIREGUARD_ADDRESSES=...`
 
 Old OpenVPN credentials were later removed.
 
