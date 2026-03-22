@@ -36,6 +36,7 @@ Current environment includes:
 
 - [Hardware](docs/hardware.md)
 - [Network Topology](docs/network-topology.md)
+- [DNS](docs/dns.md)
 - [Services](docs/services.md)
 - [Incidents and Fixes](docs/incidents.md)
 - [Roadmap](docs/roadmap.md)
