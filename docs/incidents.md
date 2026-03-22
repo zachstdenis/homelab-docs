@@ -10,6 +10,7 @@ This page tracks notable issues, outage tests, recovery findings, and troublesho
 - [UPS Arrival, Switch Migration, OPNsense Fixes, YAMS Recovery, and NUT Start](ups-switch-migration-opnsense-fixes-yams-recovery-nut-start.md)
 - [2.5GbE Upgrade, 5.x LAN Migration, and OpenVPN Fix](2-5gbe-upgrade-5x-lan-migration-and-openvpn-fix.md)
 - [YAMS, DNS, Media Stack Polish, and Watchtower Fix](yams-dns-media-stack-polish-and-watchtower-fix.md)
+- [Outage Recovery Test, SG Remote Unlock, and Moonfin/Seerr Baseline](outage-recovery-test-sg-remote-unlock-and-moonfin-seerr-baseline.md)
 - [UPS / Power Outage Recovery Test](power-outage-test.md)
 
 ## Current Notable Issues
