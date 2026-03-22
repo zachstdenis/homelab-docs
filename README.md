@@ -54,7 +54,7 @@ Current environment includes:
 
 ## Service Deployment Writeups
 
-- [Service Deployments](docs/service-deployments.md)
+- [Service Deployments](docs/deployments/README.md)
 
 ## Current Focus
 
