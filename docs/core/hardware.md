@@ -2,6 +2,8 @@
 
 This page documents the major physical components in the homelab and their roles in the overall environment.
 
+![Homelab closet setup](../images/homelab-closet-overview.jpg)
+
 ## Core Network Hardware
 
 ### ISP Modem / Router
